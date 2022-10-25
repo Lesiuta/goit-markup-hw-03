@@ -1,0 +1,185 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --accent-color: #2196F3;
+    --secondary-text-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --primary-text-decoration: none;
+    --section-background-color: #F5F4FA;
+    --black-color: #000000;
+    }
+body {
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
+    font-family: "Roboto", "sans-serif";
+    letter-spacing: 0.03em;
+}
+.logo {
+color: var(--black-color);
+text-decoration: var(--primary-text-decoration);
+font-family: "Raleway", "sans-serif";
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+}
+.logo-web {
+color: var(--accent-color);
+}
+.list {
+list-style: none;
+}
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: var(--primary-text-decoration);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-link:focus,
+.contacts-link:hover {
+color: var(--accent-color);
+}
+.site-nav .link.current {
+color: var(--accent-color);
+}
+.contacts-link {
+    color: var(--primary-text-color);
+    text-decoration: var(--primary-text-decoration);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.hero {
+    background-color: var(--secondary-background-color);
+}
+.hero-title {
+    color: var(--secondary-text-color);
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+}
+.hero-button {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor: pointer;
+}
+.hero-button:focus,
+.hero-button:hover {
+    color: var(--secondary-text-color);
+    background-color: #188CE8;
+}
+.work-title,
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.pluses-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.pluses-text {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+.team {
+    background-color: 
+    var(--section-background-color);
+}
+.workers-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.workers-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.footer {
+    background-color: var(--secondary-background-color);
+}
+.logo-studio {
+    color: var(--secondary-text-color);
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.link-location {
+    color: var(--secondary-text-color);
+    text-decoration: var(--primary-text-decoration);
+}
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: var(--primary-text-decoration);
+}
+.address-link:hover,
+.address-link:focus,
+.link-location:hover,
+.link-location:focus {
+    color: var(--accent-color);
+}
+.list-button {
+    color: var(--title-text-color);
+    background-color: var(--rectangle-background-color);
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;  
+}
+.list-button:hover,
+.list-button:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+.content-link {
+    text-decoration: var(--primary-text-decoration);
+}
+.content-title {
+    color: var(--title-text-color);
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.content-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
