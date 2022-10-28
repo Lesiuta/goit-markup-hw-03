@@ -30,7 +30,9 @@ body {
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
-
+.header-flex {
+    display: flex;
+}
 .container {
     width: 1200px;
     margin-left: auto;
@@ -247,6 +249,9 @@ body {
 .content .item:not(:last-child) {
     margin-right: 30px;
 }
+.content .item {
+    border-color: #FFFFFF;}
+
 .content-link {
     text-decoration: var(--primary-text-decoration);
 }
