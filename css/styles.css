@@ -264,6 +264,7 @@ body {
 }
 .items-content {
     margin-bottom: 34px;
+    justify-content: center;
 }
 .items-content .item {
   background-color: #F5F4FA; 
@@ -272,10 +273,8 @@ body {
     display: inline-block;
     padding: 6px 22px;
     border: transparent;
-   
     border-radius: 4px;
     min-width: 73px;
-
     color: var(--title-text-color);
     background-color: var(--rectangle-background-color);
     font-family: inherit;
